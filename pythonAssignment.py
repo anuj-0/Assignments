@@ -64,4 +64,4 @@ if __name__ == "__main__":
     for i in range(n):
         for j in range(m):
             print(f"{board[i][j]}",end=" ")
-    print()
+        print()
