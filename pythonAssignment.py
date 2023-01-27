@@ -56,11 +56,15 @@ if __name__ == "__main__":
         for j in range (0,m):
             temp.append(input())
         board.append(temp)
+    
+    print("Board: ")
     for i in range(n):
         for j in range(m):
             print(f"{board[i][j]}",end=" ")
         print()
     solve(board)
+    print()
+    print("Updated Board:")
     for i in range(n):
         for j in range(m):
             print(f"{board[i][j]}",end=" ")
