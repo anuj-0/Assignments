@@ -7,6 +7,8 @@ import java.util.Date
 import scala.collection.mutable.ListBuffer
 import scala.io.Source
 
+
+//trait for player with all the required fields
 trait Player{
   val year: Int
   val player_name: String
@@ -18,20 +20,18 @@ trait Player{
 
 case class Players(year: Int, player_name: String, country: String, matches: Int, runs: Int, wickets: Int) extends Player
 
-case class Player_Ranks(year: Int, player_name: String, country: String, matches: Int, runs: Int, wickets: Int, Rank: Double) extends Player
-
 object Question2{
-    private def get_player_info(player: List[Player]): Unit = {
-      for (playerobject <- player) {
-        println("Name : " + playerobject.player_name + "\nCountry : " + playerobject.country + "\nYear : " + playerobject.year + "\nRuns : " + playerobject.runs + "\nMatches : " + playerobject.matches + "\nWickets : " + playerobject.wickets)
-        println()
-      }
-    }
-
-    private def get_player_ranks_info(playerobjects: ListBuffer[Player_Ranks]): Unit = {
-      for (playerobject <- playerobjects) {
-        println("Player Name : " + playerobject.player_name + "\nCountry : " + playerobject.country + "\nYear : " + playerobject.year + "\nRuns : " + playerobject.runs + "\nMatches : " + playerobject.matches + "\nWickets : " + playerobject.wickets+ "\nRank : " + playerobject.Rank)
-        println()
+    private def get_player_info(players: List[Player]): Unit = {
+      for (player <- players) {
+        println(
+        s"""
+          Name : ${player.player_name}
+          Country : ${player.country}
+          Year : ${player.year}
+          Runs : ${player.runs}
+          Matches : ${player.matches}
+          Wickets : ${player.wickets}
+            """)
       }
     }
 
@@ -43,7 +43,6 @@ object Question2{
         })
         .toList
 
-//      println(players)
 
       println("Query 1: Player with the best highest run scored.")
       get_player_info(players.sortBy(_.runs)(Ordering[Int].reverse).take(1))
@@ -52,10 +51,6 @@ object Question2{
       println("Query 3: Top 5 players by wicket taken.")
       get_player_info(players.sortBy(_.wickets)(Ordering[Int].reverse).take(5))
       println("Query 4: Rank players with overall performance give weight 5x to wicket taken and (5/100)x to run scored.")
-      var list = ListBuffer[Player_Ranks]()
-      for (player_1 <- players) {
-        list+=Player_Ranks(player_1.year,player_1.player_name,player_1.country,player_1.matches,player_1.runs,player_1.wickets,5*player_1.wickets+0.05*player_1.runs)
-      }
-      get_player_ranks_info(list.sortBy(_.Rank)(Ordering[Double].reverse).take(5))
+      get_player_info(players.sortBy(player => 5*player.wickets + 0.05*player.runs)(Ordering[Double].reverse).take(5))
     }
   }
