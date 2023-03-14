@@ -1,10 +1,10 @@
 #!/bin/bash
 
 
-mkdir ~/Desktop/Assignment
+mkdir -p ~/Desktop/Assignment
 echo "Assignment Folder created on the Desktop."
 
-touch ~/Desktop/Assignment/File1.txt
+touch -a ~/Desktop/Assignment/File1.txt
 echo "File1.txt created in Assignment Folder."
 
 cat ~/Desktop/Table.sh  >> ~/Desktop/Assignment/File1.txt
