@@ -7,36 +7,35 @@ import java.util.Date
 import scala.collection.mutable.ListBuffer
 import scala.io.Source
 
-trait Player {
-  val Year: Int
-  val Name: String
-  val Country: String
-  val Matches: Int
-  val Runs: Int
-  val Wickets: Int
+trait Player{
+  val year: Int
+  val player_name: String
+  val country: String
+  val matches: Int
+  val runs: Int
+  val wickets: Int
 }
-  case class Players(Year: Int, Name: String, Country: String, Matches: Int, Runs: Int, Wickets: Int) extends Player
 
-  case class Players_with_ranks(Year: Int, Name: String, Country: String, Matches: Int, Runs: Int, Wickets: Int, Rank: Double) extends Player
+case class Players(year: Int, player_name: String, country: String, matches: Int, runs: Int, wickets: Int) extends Player
 
-  object Question2{
+case class Player_Ranks(year: Int, player_name: String, country: String, matches: Int, runs: Int, wickets: Int, Rank: Double) extends Player
 
-    private def print_player_info(playerobjects: List[Player]): Unit = {
-      for (playerobject <- playerobjects) {
-        println("Name : " + playerobject.Name + "\nCounty : " + playerobject.Country + "\nYear : " + playerobject.Year + "\nRuns : " + playerobject.Runs + "\nMatches : " + playerobject.Matches + "\nWickets : " + playerobject.Wickets)
+object Question2{
+    private def get_player_info(player: List[Player]): Unit = {
+      for (playerobject <- player) {
+        println("Name : " + playerobject.player_name + "\nCountry : " + playerobject.country + "\nYear : " + playerobject.year + "\nRuns : " + playerobject.runs + "\nMatches : " + playerobject.matches + "\nWickets : " + playerobject.wickets)
         println()
       }
     }
 
-    private def print_player_with_rank_info(playerobjects: ListBuffer[Players_with_ranks]): Unit = {
+    private def get_player_ranks_info(playerobjects: ListBuffer[Player_Ranks]): Unit = {
       for (playerobject <- playerobjects) {
-        println("Name : " + playerobject.Name + "\nCounty : " + playerobject.Country + "\nYear : " + playerobject.Year + "\nRuns : " + playerobject.Runs + "\nMatches : " + playerobject.Matches + "\nWickets : " + playerobject.Wickets+ "\nRank : " + playerobject.Rank)
+        println("Player Name : " + playerobject.player_name + "\nCountry : " + playerobject.country + "\nYear : " + playerobject.year + "\nRuns : " + playerobject.runs + "\nMatches : " + playerobject.matches + "\nWickets : " + playerobject.wickets+ "\nRank : " + playerobject.Rank)
         println()
       }
     }
 
     def main(args:Array[String])={
-      val formatter = DateTimeFormatter.ofPattern("yyyy")
       val players = Source.fromFile("src/main/scala/com/de/practice/records.txt").getLines()
         .map(line => {
           val Array(year,name,country,matches,runs,wickets) = line.split(", ")
@@ -44,17 +43,19 @@ trait Player {
         })
         .toList
 
-      println("Question - 1")
-      print_player_info(players.sortBy(_.Runs)(Ordering[Int].reverse).take(1))
-      println("Question - 2")
-      print_player_info(players.sortBy(_.Runs)(Ordering[Int].reverse).take(5))
-      println("Question - 3")
-      print_player_info(players.sortBy(_.Wickets)(Ordering[Int].reverse).take(5))
-      println("Question - 4")
-      var list = ListBuffer[Players_with_ranks]()
+//      println(players)
+
+      println("Query 1: Player with the best highest run scored.")
+      get_player_info(players.sortBy(_.runs)(Ordering[Int].reverse).take(1))
+      println("Query 2: Top 5 players by run scored")
+      get_player_info(players.sortBy(_.runs)(Ordering[Int].reverse).take(5))
+      println("Query 3: Top 5 players by wicket taken.")
+      get_player_info(players.sortBy(_.wickets)(Ordering[Int].reverse).take(5))
+      println("Query 4: Rank players with overall performance give weight 5x to wicket taken and (5/100)x to run scored.")
+      var list = ListBuffer[Player_Ranks]()
       for (player_1 <- players) {
-        list+=Players_with_ranks(player_1.Year,player_1.Name,player_1.Country,player_1.Matches,player_1.Runs,player_1.Wickets,5*player_1.Wickets+0.05*player_1.Runs)
+        list+=Player_Ranks(player_1.year,player_1.player_name,player_1.country,player_1.matches,player_1.runs,player_1.wickets,5*player_1.wickets+0.05*player_1.runs)
       }
-      print_player_with_rank_info(list.sortBy(_.Rank)(Ordering[Double].reverse).take(5))
+      get_player_ranks_info(list.sortBy(_.Rank)(Ordering[Double].reverse).take(5))
     }
   }
