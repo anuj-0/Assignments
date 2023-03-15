@@ -3,8 +3,7 @@ package com.de.practice
 
 object Question1 {
   private def get_bucket_range(n: Double): Unit = {
-    var n_round:Double = (n * 1000) % 100
-    var num = n_round - (n_round%0.01)
+    var num = ((n*1000)%100).toString.format(".2f").toDouble
     println("Value : " + n)
     if (num >= 50) {
       val left = n - (num / 1000) + 0.050
