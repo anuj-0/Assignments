@@ -4,13 +4,14 @@ from pyspark import SparkContext
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import regexp_replace
 from pyspark.sql.functions import col
+from config import Key, Host
 
 
 def get_data():
     url = "https://covid-19-india2.p.rapidapi.com/details.php"
     headers = {
-        "X-RapidAPI-Key": "a6bd5a874bmsh68944b9f8e906dcp1b1061jsn5a890f63a6d5",
-        "X-RapidAPI-Host": "covid-19-india2.p.rapidapi.com"
+        "X-RapidAPI-Key": Key,
+        "X-RapidAPI-Host": Host
     }
     response = requests.request("GET", url, headers=headers)
     return response
@@ -28,6 +29,4 @@ def clean_data(df):
     df = df.withColumn('state', regexp_replace('state', '\*', ""))
     return df
 
-
-def main():
 
