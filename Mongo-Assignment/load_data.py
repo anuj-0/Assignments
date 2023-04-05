@@ -1,4 +1,3 @@
-from bson.son import SON
 from pymongo import MongoClient
 import json
 

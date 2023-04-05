@@ -1,7 +1,6 @@
-from bson.son import SON
 import pymongo
 from pymongo import MongoClient
-import json
+
 
 """Created a connection using pymongo.MongoClient to connect with MongoDB."""
 
