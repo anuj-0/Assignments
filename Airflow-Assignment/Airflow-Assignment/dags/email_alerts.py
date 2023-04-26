@@ -2,6 +2,7 @@ from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.email_operator import EmailOperator
+from config import OFFICIAL_EMAIL
 
 default_args = {
     'owner': 'airflow',
@@ -27,7 +28,7 @@ dummy_task = DummyOperator(
 email_notification = EmailOperator(
     task_id='email_notification',
     dag=dag,
-    to='anuj.mohan@sigmoidanalytics.com',
+    to=OFFICIAL_EMAIL,
     subject='Airflow DAG Notification',
     html_content='The dummy task has succeeded!'
 )

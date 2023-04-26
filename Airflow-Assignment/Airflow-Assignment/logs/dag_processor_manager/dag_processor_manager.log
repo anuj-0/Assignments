@@ -3255,3 +3255,1130 @@ File Path                                 PID  Runtime      # DAGs    # Errors  
 /opt/airflow/dags/sample_dag.py           263  0.01s             1           0  0.21s           2023-04-26T11:14:11
 /opt/airflow/dags/slack_integration.py    262  0.02s             1           0  0.22s           2023-04-26T11:14:11
 ================================================================================
+[2023-04-26 11:15:11,718] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.17s           2023-04-26T11:14:41
+/opt/airflow/dags/sample_dag.py           293  0.00s             1           0  0.28s           2023-04-26T11:14:41
+/opt/airflow/dags/slack_integration.py    292  0.01s             1           0  0.30s           2023-04-26T11:14:41
+================================================================================
+[2023-04-26 11:15:38,057] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-04-26 11:15:38,095] {manager.py:693} INFO - There are 3 files in /opt/airflow/dags
+[2023-04-26 11:15:42,153] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:15:12
+/opt/airflow/dags/sample_dag.py           314  0.01s             1           0  0.22s           2023-04-26T11:15:11
+/opt/airflow/dags/slack_integration.py    313  0.02s             1           0  0.23s           2023-04-26T11:15:11
+================================================================================
+[2023-04-26 11:16:12,503] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:15:42
+/opt/airflow/dags/sample_dag.py           344  0.01s             1           0  0.18s           2023-04-26T11:15:42
+/opt/airflow/dags/slack_integration.py    343  0.03s             1           0  0.20s           2023-04-26T11:15:42
+================================================================================
+[2023-04-26 11:16:42,833] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:16:12
+/opt/airflow/dags/sample_dag.py           374  0.01s             1           0  0.19s           2023-04-26T11:16:12
+/opt/airflow/dags/slack_integration.py    373  0.03s             1           0  0.21s           2023-04-26T11:16:12
+================================================================================
+[2023-04-26 11:17:13,265] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.17s           2023-04-26T11:16:43
+/opt/airflow/dags/sample_dag.py           403  0.00s             1           0  0.29s           2023-04-26T11:16:43
+/opt/airflow/dags/slack_integration.py    402  0.01s             1           0  0.31s           2023-04-26T11:16:43
+================================================================================
+[2023-04-26 11:17:43,613] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:17:13
+/opt/airflow/dags/sample_dag.py           433  0.01s             1           0  0.16s           2023-04-26T11:17:13
+/opt/airflow/dags/slack_integration.py    432  0.03s             1           0  0.16s           2023-04-26T11:17:13
+================================================================================
+[2023-04-26 11:18:13,996] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:17:43
+/opt/airflow/dags/sample_dag.py           454  0.01s             1           0  0.24s           2023-04-26T11:17:43
+/opt/airflow/dags/slack_integration.py    453  0.01s             1           0  0.26s           2023-04-26T11:17:43
+================================================================================
+[2023-04-26 11:18:44,360] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.17s           2023-04-26T11:18:14
+/opt/airflow/dags/sample_dag.py           483  0.01s             1           0  0.19s           2023-04-26T11:18:14
+/opt/airflow/dags/slack_integration.py    482  0.02s             1           0  0.22s           2023-04-26T11:18:14
+================================================================================
+[2023-04-26 11:19:14,770] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:18:44
+/opt/airflow/dags/sample_dag.py           512  0.01s             1           0  0.27s           2023-04-26T11:18:44
+/opt/airflow/dags/slack_integration.py    511  0.03s             1           0  0.29s           2023-04-26T11:18:44
+================================================================================
+[2023-04-26 11:19:45,146] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:19:15
+/opt/airflow/dags/sample_dag.py           542  0.01s             1           0  0.19s           2023-04-26T11:19:14
+/opt/airflow/dags/slack_integration.py    541  0.03s             1           0  0.21s           2023-04-26T11:19:14
+================================================================================
+[2023-04-26 11:20:15,541] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:19:45
+/opt/airflow/dags/sample_dag.py           571  0.01s             1           0  0.26s           2023-04-26T11:19:45
+/opt/airflow/dags/slack_integration.py    570  0.03s             1           0  0.28s           2023-04-26T11:19:45
+================================================================================
+[2023-04-26 11:20:38,827] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-04-26 11:20:38,840] {manager.py:693} INFO - There are 3 files in /opt/airflow/dags
+[2023-04-26 11:20:45,885] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:20:15
+/opt/airflow/dags/sample_dag.py           601  0.00s             1           0  0.20s           2023-04-26T11:20:15
+/opt/airflow/dags/slack_integration.py    600  0.01s             1           0  0.23s           2023-04-26T11:20:15
+================================================================================
+[2023-04-26 11:21:16,354] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:20:46
+/opt/airflow/dags/sample_dag.py           622  0.01s             1           0  0.30s           2023-04-26T11:20:46
+/opt/airflow/dags/slack_integration.py    621  0.03s             1           0  0.31s           2023-04-26T11:20:46
+================================================================================
+[2023-04-26 11:21:46,737] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:21:16
+/opt/airflow/dags/sample_dag.py           652  0.01s             1           0  0.19s           2023-04-26T11:21:16
+/opt/airflow/dags/slack_integration.py    651  0.04s             1           0  0.21s           2023-04-26T11:21:16
+================================================================================
+[2023-04-26 11:22:17,145] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:21:47
+/opt/airflow/dags/sample_dag.py           681  0.01s             1           0  0.28s           2023-04-26T11:21:47
+/opt/airflow/dags/slack_integration.py    680  0.02s             1           0  0.31s           2023-04-26T11:21:47
+================================================================================
+[2023-04-26 11:22:47,675] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:22:17
+/opt/airflow/dags/sample_dag.py           711  0.01s             1           0  0.26s           2023-04-26T11:22:17
+/opt/airflow/dags/slack_integration.py    710  0.03s             1           0  0.28s           2023-04-26T11:22:17
+================================================================================
+[2023-04-26 11:23:18,083] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:22:48
+/opt/airflow/dags/sample_dag.py           740  0.01s             1           0  0.27s           2023-04-26T11:22:47
+/opt/airflow/dags/slack_integration.py    739  0.03s             1           0  0.29s           2023-04-26T11:22:47
+================================================================================
+[2023-04-26 11:23:48,381] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:23:18
+/opt/airflow/dags/sample_dag.py           762  0.00s             1           0  0.20s           2023-04-26T11:23:18
+/opt/airflow/dags/slack_integration.py    761  0.01s             1           0  0.22s           2023-04-26T11:23:18
+================================================================================
+[2023-04-26 11:24:18,696] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:23:48
+/opt/airflow/dags/sample_dag.py           791  0.01s             1           0  0.16s           2023-04-26T11:23:48
+/opt/airflow/dags/slack_integration.py    790  0.04s             1           0  0.17s           2023-04-26T11:23:48
+================================================================================
+[2023-04-26 11:24:49,129] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:24:19
+/opt/airflow/dags/sample_dag.py           821  0.01s             1           0  0.28s           2023-04-26T11:24:18
+/opt/airflow/dags/slack_integration.py    820  0.03s             1           0  0.31s           2023-04-26T11:24:18
+================================================================================
+[2023-04-26 11:25:19,556] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:24:49
+/opt/airflow/dags/sample_dag.py           851  0.01s             1           0  0.26s           2023-04-26T11:24:49
+/opt/airflow/dags/slack_integration.py    850  0.03s             1           0  0.29s           2023-04-26T11:24:49
+================================================================================
+[2023-04-26 11:25:38,835] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-04-26 11:25:38,849] {manager.py:693} INFO - There are 3 files in /opt/airflow/dags
+[2023-04-26 11:25:49,959] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.18s           2023-04-26T11:25:19
+/opt/airflow/dags/sample_dag.py           881  0.01s             1           0  0.20s           2023-04-26T11:25:19
+/opt/airflow/dags/slack_integration.py    880  0.03s             1           0  0.22s           2023-04-26T11:25:19
+================================================================================
+[2023-04-26 11:26:20,382] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:25:50
+/opt/airflow/dags/sample_dag.py           902  0.01s             1           0  0.27s           2023-04-26T11:25:50
+/opt/airflow/dags/slack_integration.py    901  0.03s             1           0  0.29s           2023-04-26T11:25:50
+================================================================================
+[2023-04-26 11:26:50,689] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:26:20
+/opt/airflow/dags/sample_dag.py           934  0.00s             1           0  0.18s           2023-04-26T11:26:20
+/opt/airflow/dags/slack_integration.py    933  0.01s             1           0  0.21s           2023-04-26T11:26:20
+================================================================================
+[2023-04-26 11:27:21,121] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:26:51
+/opt/airflow/dags/sample_dag.py           964  0.01s             1           0  0.26s           2023-04-26T11:26:50
+/opt/airflow/dags/slack_integration.py    963  0.03s             1           0  0.28s           2023-04-26T11:26:50
+================================================================================
+[2023-04-26 11:27:51,517] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:27:21
+/opt/airflow/dags/sample_dag.py           995  0.01s             1           0  0.22s           2023-04-26T11:27:21
+/opt/airflow/dags/slack_integration.py    994  0.03s             1           0  0.25s           2023-04-26T11:27:21
+================================================================================
+[2023-04-26 11:28:21,917] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:27:51
+/opt/airflow/dags/sample_dag.py          1024  0.00s             1           0  0.27s           2023-04-26T11:27:51
+/opt/airflow/dags/slack_integration.py   1023  0.03s             1           0  0.30s           2023-04-26T11:27:51
+================================================================================
+[2023-04-26 11:28:52,377] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.17s           2023-04-26T11:28:22
+/opt/airflow/dags/sample_dag.py          1045  0.01s             1           0  0.30s           2023-04-26T11:28:22
+/opt/airflow/dags/slack_integration.py   1044  0.02s             1           0  0.33s           2023-04-26T11:28:22
+================================================================================
+[2023-04-26 11:29:22,776] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:28:52
+/opt/airflow/dags/sample_dag.py          1076  0.00s             1           0  0.24s           2023-04-26T11:28:52
+/opt/airflow/dags/slack_integration.py   1075  0.01s             1           0  0.26s           2023-04-26T11:28:52
+================================================================================
+[2023-04-26 11:29:53,210] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.20s           2023-04-26T11:29:23
+/opt/airflow/dags/sample_dag.py          1106  0.01s             1           0  0.27s           2023-04-26T11:29:23
+/opt/airflow/dags/slack_integration.py   1105  0.02s             1           0  0.28s           2023-04-26T11:29:23
+================================================================================
+[2023-04-26 11:30:23,663] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:29:53
+/opt/airflow/dags/sample_dag.py          1137  0.01s             1           0  0.27s           2023-04-26T11:29:53
+/opt/airflow/dags/slack_integration.py   1136  0.03s             1           0  0.28s           2023-04-26T11:29:53
+================================================================================
+[2023-04-26 11:30:39,008] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-04-26 11:30:39,025] {manager.py:693} INFO - There are 3 files in /opt/airflow/dags
+[2023-04-26 11:30:54,137] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:30:24
+/opt/airflow/dags/sample_dag.py          1167  0.01s             1           0  0.29s           2023-04-26T11:30:23
+/opt/airflow/dags/slack_integration.py   1166  0.03s             1           0  0.32s           2023-04-26T11:30:23
+================================================================================
+[2023-04-26 11:31:24,476] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:30:54
+/opt/airflow/dags/sample_dag.py          1197  0.00s             1           0  0.19s           2023-04-26T11:30:54
+/opt/airflow/dags/slack_integration.py   1196  0.03s             1           0  0.21s           2023-04-26T11:30:54
+================================================================================
+[2023-04-26 11:31:55,032] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.21s           2023-04-26T11:31:25
+/opt/airflow/dags/sample_dag.py          1219  0.01s             1           0  0.35s           2023-04-26T11:31:24
+/opt/airflow/dags/slack_integration.py   1218  0.03s             1           0  0.39s           2023-04-26T11:31:24
+================================================================================
+[2023-04-26 11:32:25,381] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:31:55
+/opt/airflow/dags/sample_dag.py          1250  0.01s             1           0  0.20s           2023-04-26T11:31:55
+/opt/airflow/dags/slack_integration.py   1249  0.03s             1           0  0.22s           2023-04-26T11:31:55
+================================================================================
+[2023-04-26 11:32:55,782] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:32:25
+/opt/airflow/dags/sample_dag.py          1279  0.01s             1           0  0.26s           2023-04-26T11:32:25
+/opt/airflow/dags/slack_integration.py   1278  0.02s             1           0  0.29s           2023-04-26T11:32:25
+================================================================================
+[2023-04-26 11:33:26,133] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:32:56
+/opt/airflow/dags/sample_dag.py          1309  0.01s             1           0  0.20s           2023-04-26T11:32:55
+/opt/airflow/dags/slack_integration.py   1308  0.03s             1           0  0.21s           2023-04-26T11:32:55
+================================================================================
+[2023-04-26 11:33:56,489] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:33:26
+/opt/airflow/dags/sample_dag.py          1340  0.01s             1           0  0.19s           2023-04-26T11:33:26
+/opt/airflow/dags/slack_integration.py   1339  0.03s             1           0  0.21s           2023-04-26T11:33:26
+================================================================================
+[2023-04-26 11:34:26,803] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:33:56
+/opt/airflow/dags/sample_dag.py          1362  0.00s             1           0  0.18s           2023-04-26T11:33:56
+/opt/airflow/dags/slack_integration.py   1361  0.01s             1           0  0.20s           2023-04-26T11:33:56
+================================================================================
+[2023-04-26 11:34:57,160] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:34:27
+/opt/airflow/dags/sample_dag.py          1393  0.00s             1           0  0.21s           2023-04-26T11:34:27
+/opt/airflow/dags/slack_integration.py   1392  0.01s             1           0  0.23s           2023-04-26T11:34:27
+================================================================================
+[2023-04-26 11:35:27,508] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:34:57
+/opt/airflow/dags/sample_dag.py          1423  0.01s             1           0  0.19s           2023-04-26T11:34:57
+/opt/airflow/dags/slack_integration.py   1422  0.03s             1           0  0.20s           2023-04-26T11:34:57
+================================================================================
+[2023-04-26 11:35:39,733] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-04-26 11:35:39,775] {manager.py:693} INFO - There are 3 files in /opt/airflow/dags
+[2023-04-26 11:35:57,913] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:35:27
+/opt/airflow/dags/sample_dag.py          1453  0.01s             1           0  0.19s           2023-04-26T11:35:27
+/opt/airflow/dags/slack_integration.py   1452  0.03s             1           0  0.21s           2023-04-26T11:35:27
+================================================================================
+[2023-04-26 11:36:28,257] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:35:58
+/opt/airflow/dags/sample_dag.py          1483  0.00s             1           0  0.23s           2023-04-26T11:35:58
+/opt/airflow/dags/slack_integration.py   1482  0.01s             1           0  0.25s           2023-04-26T11:35:58
+================================================================================
+[2023-04-26 11:36:58,606] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:36:28
+/opt/airflow/dags/sample_dag.py          1504  0.01s             1           0  0.16s           2023-04-26T11:36:28
+/opt/airflow/dags/slack_integration.py   1503  0.03s             1           0  0.17s           2023-04-26T11:36:28
+================================================================================
+[2023-04-26 11:37:28,955] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:36:58
+/opt/airflow/dags/sample_dag.py          1535  0.01s             1           0  0.20s           2023-04-26T11:36:58
+/opt/airflow/dags/slack_integration.py   1534  0.02s             1           0  0.22s           2023-04-26T11:36:58
+================================================================================
+[2023-04-26 11:37:59,370] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:37:29
+/opt/airflow/dags/sample_dag.py          1565  0.01s             1           0  0.21s           2023-04-26T11:37:29
+/opt/airflow/dags/slack_integration.py   1564  0.03s             1           0  0.23s           2023-04-26T11:37:29
+================================================================================
+[2023-04-26 11:38:29,709] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:37:59
+/opt/airflow/dags/sample_dag.py          1595  0.01s             1           0  0.19s           2023-04-26T11:37:59
+/opt/airflow/dags/slack_integration.py   1594  0.02s             1           0  0.21s           2023-04-26T11:37:59
+================================================================================
+[2023-04-26 11:39:00,103] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:38:30
+/opt/airflow/dags/sample_dag.py          1625  0.01s             1           0  0.22s           2023-04-26T11:38:29
+/opt/airflow/dags/slack_integration.py   1624  0.02s             1           0  0.24s           2023-04-26T11:38:29
+================================================================================
+[2023-04-26 11:39:30,433] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:39:00
+/opt/airflow/dags/sample_dag.py          1656  0.00s             1           0  0.19s           2023-04-26T11:39:00
+/opt/airflow/dags/slack_integration.py   1655  0.01s             1           0  0.20s           2023-04-26T11:39:00
+================================================================================
+[2023-04-26 11:40:00,821] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:39:30
+/opt/airflow/dags/sample_dag.py          1675  0.01s             1           0  0.19s           2023-04-26T11:39:30
+/opt/airflow/dags/slack_integration.py   1674  0.03s             1           0  0.20s           2023-04-26T11:39:30
+================================================================================
+[2023-04-26 11:40:31,153] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:40:01
+/opt/airflow/dags/sample_dag.py          1704  0.01s             1           0  0.19s           2023-04-26T11:40:00
+/opt/airflow/dags/slack_integration.py   1703  0.02s             1           0  0.20s           2023-04-26T11:40:00
+================================================================================
+[2023-04-26 11:40:40,374] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-04-26 11:40:40,407] {manager.py:693} INFO - There are 3 files in /opt/airflow/dags
+[2023-04-26 11:41:01,536] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:40:31
+/opt/airflow/dags/sample_dag.py          1733  0.01s             1           0  0.19s           2023-04-26T11:40:31
+/opt/airflow/dags/slack_integration.py   1732  0.02s             1           0  0.21s           2023-04-26T11:40:31
+================================================================================
+[2023-04-26 11:41:31,869] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:41:01
+/opt/airflow/dags/sample_dag.py          1761  0.01s             1           0  0.19s           2023-04-26T11:41:01
+/opt/airflow/dags/slack_integration.py   1760  0.02s             1           0  0.20s           2023-04-26T11:41:01
+================================================================================
+[2023-04-26 11:42:02,199] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:41:32
+/opt/airflow/dags/sample_dag.py          1792  0.00s             1           0  0.20s           2023-04-26T11:41:32
+/opt/airflow/dags/slack_integration.py   1791  0.01s             1           0  0.21s           2023-04-26T11:41:32
+================================================================================
+[2023-04-26 11:42:32,526] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:42:02
+/opt/airflow/dags/sample_dag.py          1812  0.01s             1           0  0.18s           2023-04-26T11:42:02
+/opt/airflow/dags/slack_integration.py   1811  0.02s             1           0  0.18s           2023-04-26T11:42:02
+================================================================================
+[2023-04-26 11:43:02,884] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.17s           2023-04-26T11:42:32
+/opt/airflow/dags/sample_dag.py          1841  0.01s             1           0  0.19s           2023-04-26T11:42:32
+/opt/airflow/dags/slack_integration.py   1840  0.03s             1           0  0.20s           2023-04-26T11:42:32
+================================================================================
+[2023-04-26 11:43:33,198] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:43:03
+/opt/airflow/dags/sample_dag.py          1871  0.01s             1           0  0.19s           2023-04-26T11:43:03
+/opt/airflow/dags/slack_integration.py   1870  0.02s             1           0  0.21s           2023-04-26T11:43:03
+================================================================================
+[2023-04-26 11:44:03,544] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:43:33
+/opt/airflow/dags/sample_dag.py          1902  0.01s             1           0  0.20s           2023-04-26T11:43:33
+/opt/airflow/dags/slack_integration.py   1901  0.03s             1           0  0.21s           2023-04-26T11:43:33
+================================================================================
+[2023-04-26 11:44:33,876] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:44:03
+/opt/airflow/dags/sample_dag.py          1932  0.01s             1           0  0.18s           2023-04-26T11:44:03
+/opt/airflow/dags/slack_integration.py   1931  0.03s             1           0  0.20s           2023-04-26T11:44:03
+================================================================================
+[2023-04-26 11:45:04,201] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:44:34
+/opt/airflow/dags/sample_dag.py          1952  0.01s             1           0  0.19s           2023-04-26T11:44:34
+/opt/airflow/dags/slack_integration.py   1951  0.03s             1           0  0.21s           2023-04-26T11:44:34
+================================================================================
+[2023-04-26 11:45:34,570] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.18s           2023-04-26T11:45:04
+/opt/airflow/dags/sample_dag.py          1982  0.01s             1           0  0.22s           2023-04-26T11:45:04
+/opt/airflow/dags/slack_integration.py   1981  0.03s             1           0  0.24s           2023-04-26T11:45:04
+================================================================================
+[2023-04-26 11:45:40,769] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-04-26 11:45:40,823] {manager.py:693} INFO - There are 3 files in /opt/airflow/dags
+[2023-04-26 11:46:04,951] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:45:34
+/opt/airflow/dags/sample_dag.py          2012  0.01s             1           0  0.19s           2023-04-26T11:45:34
+/opt/airflow/dags/slack_integration.py   2011  0.02s             1           0  0.21s           2023-04-26T11:45:34
+================================================================================
+[2023-04-26 11:46:35,302] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.16s           2023-04-26T11:46:05
+/opt/airflow/dags/sample_dag.py          2041  0.01s             1           0  0.22s           2023-04-26T11:46:05
+/opt/airflow/dags/slack_integration.py   2040  0.03s             1           0  0.23s           2023-04-26T11:46:05
+================================================================================
+[2023-04-26 11:47:05,649] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/psql_integration.py                            1           0  0.15s           2023-04-26T11:46:35
+/opt/airflow/dags/sample_dag.py          2071  0.01s             1           0  0.19s           2023-04-26T11:46:35
+/opt/airflow/dags/slack_integration.py   2070  0.03s             1           0  0.21s           2023-04-26T11:46:35
+================================================================================
+[2023-04-26 11:47:35,970] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                  0           1  0.05s           2023-04-26T11:47:24
+/opt/airflow/dags/psql_integration.py                            1           0  0.17s           2023-04-26T11:47:06
+/opt/airflow/dags/slack_integration.py   2101  0.00s             1           0  0.22s           2023-04-26T11:47:05
+================================================================================
+[2023-04-26 11:48:06,333] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                  0           1  0.05s           2023-04-26T11:47:55
+/opt/airflow/dags/psql_integration.py    2123  0.01s             1           0  0.22s           2023-04-26T11:47:36
+/opt/airflow/dags/slack_integration.py   2122  0.03s             1           0  0.21s           2023-04-26T11:47:36
+================================================================================
+[2023-04-26 11:48:36,673] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                  0           1  0.06s           2023-04-26T11:48:25
+/opt/airflow/dags/psql_integration.py    2153  0.01s             1           0  0.19s           2023-04-26T11:48:06
+/opt/airflow/dags/slack_integration.py   2152  0.03s             1           0  0.21s           2023-04-26T11:48:06
+================================================================================
+[2023-04-26 11:49:02,991] {manager.py:511} INFO - DAG example_email_notification is missing and will be deactivated.
+[2023-04-26 11:49:03,006] {manager.py:521} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2023-04-26 11:49:07,060] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                  0           1  0.08s           2023-04-26T11:48:56
+/opt/airflow/dags/psql_integration.py    2181  0.01s             1           0  0.21s           2023-04-26T11:48:36
+/opt/airflow/dags/slack_integration.py   2180  0.03s             1           0  0.22s           2023-04-26T11:48:36
+================================================================================
+[2023-04-26 11:49:37,204] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                  0           1  0.09s           2023-04-26T11:49:26
+/opt/airflow/dags/psql_integration.py                            1           0  0.20s           2023-04-26T11:49:07
+/opt/airflow/dags/slack_integration.py                           1           0  0.21s           2023-04-26T11:49:07
+================================================================================
+[2023-04-26 11:50:07,409] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                  0           1  0.05s           2023-04-26T11:49:56
+/opt/airflow/dags/psql_integration.py                            1           0  0.17s           2023-04-26T11:49:37
+/opt/airflow/dags/slack_integration.py                           1           0  0.17s           2023-04-26T11:49:37
+================================================================================
+[2023-04-26 11:50:37,576] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                  0           1  0.08s           2023-04-26T11:50:26
+/opt/airflow/dags/psql_integration.py                            1           0  0.18s           2023-04-26T11:50:08
+/opt/airflow/dags/slack_integration.py                           1           0  0.20s           2023-04-26T11:50:08
+================================================================================
+[2023-04-26 11:50:40,834] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-04-26 11:50:40,867] {manager.py:693} INFO - There are 3 files in /opt/airflow/dags
+[2023-04-26 11:51:07,782] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                  0           1  0.05s           2023-04-26T11:50:56
+/opt/airflow/dags/psql_integration.py                            1           0  0.18s           2023-04-26T11:50:38
+/opt/airflow/dags/slack_integration.py                           1           0  0.19s           2023-04-26T11:50:38
+================================================================================
+[2023-04-26 11:51:37,961] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                  0           1  0.09s           2023-04-26T11:51:26
+/opt/airflow/dags/psql_integration.py                            1           0  0.19s           2023-04-26T11:51:10
+/opt/airflow/dags/slack_integration.py                           1           0  0.21s           2023-04-26T11:51:10
+================================================================================
+[2023-04-26 11:52:08,189] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                  0           1  0.07s           2023-04-26T11:51:57
+/opt/airflow/dags/psql_integration.py                            1           0  0.19s           2023-04-26T11:51:40
+/opt/airflow/dags/slack_integration.py                           1           0  0.21s           2023-04-26T11:51:40
+================================================================================
+[2023-04-26 11:52:38,596] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                  0           1  0.05s           2023-04-26T11:52:27
+/opt/airflow/dags/psql_integration.py                            1           0  0.20s           2023-04-26T11:52:10
+/opt/airflow/dags/slack_integration.py                           1           0  0.22s           2023-04-26T11:52:10
+================================================================================
+[2023-04-26 11:53:08,784] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                  0           1  0.08s           2023-04-26T11:52:57
+/opt/airflow/dags/psql_integration.py                            1           0  0.18s           2023-04-26T11:52:40
+/opt/airflow/dags/slack_integration.py                           1           0  0.19s           2023-04-26T11:52:40
+================================================================================
+[2023-04-26 11:53:18,134] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:18,139] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:19,141] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:19,148] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:20,150] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:20,154] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:21,159] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:21,166] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:22,166] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:22,172] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:23,172] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:23,178] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:24,180] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:24,183] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:25,188] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:25,194] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:26,198] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:26,204] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:27,205] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:27,208] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:28,211] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:28,214] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:29,219] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:29,224] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:30,230] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:30,231] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:31,236] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:31,243] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:32,244] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:32,249] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:33,253] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:33,254] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:34,259] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:34,268] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:35,270] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:35,276] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:36,281] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:36,284] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:37,285] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:37,287] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:38,294] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:38,296] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:39,304] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:39,310] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                  0           1  0.08s           2023-04-26T11:52:57
+/opt/airflow/dags/psql_integration.py                            1           0  0.24s           2023-04-26T11:53:11
+/opt/airflow/dags/slack_integration.py                           1           0  0.24s           2023-04-26T11:53:11
+================================================================================
+[2023-04-26 11:53:39,315] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:40,317] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:40,320] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:41,322] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:41,344] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:41,563] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:42,353] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:42,572] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:43,357] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:43,578] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:44,366] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:44,585] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:45,378] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:45,592] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:46,390] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:46,600] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:47,402] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:47,611] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:48,411] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:48,617] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:49,421] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:49,622] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:50,432] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:50,630] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:51,443] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:51,638] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:52,454] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:52,646] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:53,469] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:53,655] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:54,475] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:54,671] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:55,486] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:55,682] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:56,499] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:56,694] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:57,509] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:57,701] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:58,517] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:58,706] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:59,524] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:53:59,710] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:00,534] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:00,717] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:01,545] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:01,726] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:02,560] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:02,731] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:03,571] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:03,739] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:04,577] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:04,746] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:05,597] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:05,756] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:06,612] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:06,769] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:07,623] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:07,778] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:08,635] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:08,792] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:09,649] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:09,653] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                  0           1  0.08s           2023-04-26T11:52:57
+/opt/airflow/dags/psql_integration.py                            1           0  0.23s           2023-04-26T11:53:41
+/opt/airflow/dags/slack_integration.py                           1           0  0.23s           2023-04-26T11:53:41
+================================================================================
+[2023-04-26 11:54:09,799] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:10,661] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:10,807] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:11,669] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:11,813] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:11,872] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:12,820] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:12,880] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:13,835] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:13,885] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:14,849] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:14,895] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:15,860] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:15,902] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:16,871] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:16,907] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:17,880] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:17,914] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:18,890] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:18,923] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:19,899] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:19,935] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:20,905] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:20,941] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:21,917] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:21,948] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:22,926] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:22,955] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:23,935] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:23,962] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:24,947] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:24,971] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:25,960] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:25,979] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:26,972] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:26,986] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:27,982] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:27,989] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:28,997] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:29,003] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:30,011] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:30,016] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:31,022] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:31,027] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:32,030] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:32,031] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:33,041] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:33,047] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:34,052] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:34,059] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:35,062] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:35,066] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:36,070] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:36,075] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:37,076] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:37,079] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:38,085] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:38,090] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:39,096] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:39,102] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:40,105] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:40,112] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                  0           1  0.08s           2023-04-26T11:52:57
+/opt/airflow/dags/psql_integration.py                            1           0  0.19s           2023-04-26T11:54:11
+/opt/airflow/dags/slack_integration.py                           1           0  0.20s           2023-04-26T11:54:11
+================================================================================
+[2023-04-26 11:54:40,119] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:41,121] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:41,126] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:42,131] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:42,163] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:42,375] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:42,379] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:43,381] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:43,385] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:44,390] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:44,392] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:45,394] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:45,396] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:46,400] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:46,405] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:47,408] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:47,414] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:48,415] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:48,418] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:49,424] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:49,427] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:50,434] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:50,441] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:51,449] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:51,455] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:52,457] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:52,460] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:53,461] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:53,462] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:54,467] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:54,468] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:55,472] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:55,473] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:56,479] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:56,486] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:57,491] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:57,496] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:58,501] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:58,511] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:59,511] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:54:59,515] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:00,520] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:00,525] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:01,530] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:01,534] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:02,542] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:02,549] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:03,556] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:03,561] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:04,561] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:04,566] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:05,569] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:05,577] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:06,589] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:06,596] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:07,602] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:07,610] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:08,617] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:08,624] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:09,624] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:09,630] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:10,634] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:10,642] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sample_dag.py                                  0           1  0.08s           2023-04-26T11:52:57
+/opt/airflow/dags/psql_integration.py                            1           0  0.23s           2023-04-26T11:54:42
+/opt/airflow/dags/slack_integration.py                           1           0  0.24s           2023-04-26T11:54:42
+================================================================================
+[2023-04-26 11:55:10,646] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:11,655] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:11,661] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:12,667] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:12,699] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:12,897] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:13,708] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:13,904] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:14,714] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:14,911] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:15,719] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:15,916] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:16,725] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:16,923] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:17,735] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:17,931] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:18,745] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:18,940] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:19,752] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:19,948] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:20,757] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:20,952] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:21,768] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:21,959] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:22,777] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:22,968] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:23,788] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:23,982] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:24,797] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:24,991] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:25,802] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:26,001] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:26,808] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:27,012] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:27,821] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:28,021] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:28,834] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:29,034] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:29,843] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:30,043] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:30,851] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:31,048] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:31,859] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:32,055] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:32,869] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:33,064] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:33,879] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:34,074] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:34,889] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:35,082] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:35,904] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:36,091] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:36,910] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:37,096] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:37,917] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:38,104] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:38,927] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:39,115] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:39,937] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:40,126] {manager.py:1011} WARNING - Skipping processing of missing file: /opt/airflow/dags/sample_dag.py
+[2023-04-26 11:55:40,948] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-04-26 11:55:40,977] {manager.py:693} INFO - There are 3 files in /opt/airflow/dags
+[2023-04-26 11:55:40,995] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/email_alerts.py        2538  0.00s             0           0
+/opt/airflow/dags/psql_integration.py                            1           0  0.21s           2023-04-26T11:55:12
+/opt/airflow/dags/slack_integration.py                           1           0  0.23s           2023-04-26T11:55:12
+================================================================================
+[2023-04-26 11:56:11,319] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/email_alerts.py        2568  0.00s             1           0  0.19s           2023-04-26T11:55:41
+/opt/airflow/dags/psql_integration.py                            1           0  0.20s           2023-04-26T11:55:43
+/opt/airflow/dags/slack_integration.py                           1           0  0.21s           2023-04-26T11:55:43
+================================================================================
