@@ -1,2 +1,2 @@
-./Airflow-Assignment/dags/config.py
-./Airflow-Assignment/docker-compose.yaml
+config.py
+*.yaml
