@@ -1,0 +1,176 @@
+[2023-04-26 11:05:29,927] {processor.py:153} INFO - Started process (PID=810) to work on /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:05:29,927] {processor.py:641} INFO - Processing file /opt/airflow/dags/slack_integration.py for tasks to queue
+[2023-04-26 11:05:29,928] {logging_mixin.py:115} INFO - [2023-04-26 11:05:29,928] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:05:29,966] {logging_mixin.py:115} INFO - [2023-04-26 11:05:29,964] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/slack_integration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_integration.py", line 32, in <module>
+    slack_webhook_token = BaseHook.get_connection(SLACK_CONN_ID).password
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `slack` isn't defined
+[2023-04-26 11:05:29,966] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:05:29,974] {processor.py:161} INFO - Processing /opt/airflow/dags/slack_integration.py took 0.050 seconds
+[2023-04-26 11:06:00,167] {processor.py:153} INFO - Started process (PID=840) to work on /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:06:00,170] {processor.py:641} INFO - Processing file /opt/airflow/dags/slack_integration.py for tasks to queue
+[2023-04-26 11:06:00,172] {logging_mixin.py:115} INFO - [2023-04-26 11:06:00,172] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:06:00,216] {logging_mixin.py:115} INFO - [2023-04-26 11:06:00,215] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/slack_integration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_integration.py", line 32, in <module>
+    slack_webhook_token = BaseHook.get_connection(SLACK_CONN_ID).password
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `slack` isn't defined
+[2023-04-26 11:06:00,220] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:06:00,227] {processor.py:161} INFO - Processing /opt/airflow/dags/slack_integration.py took 0.070 seconds
+[2023-04-26 11:06:30,447] {processor.py:153} INFO - Started process (PID=861) to work on /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:06:30,450] {processor.py:641} INFO - Processing file /opt/airflow/dags/slack_integration.py for tasks to queue
+[2023-04-26 11:06:30,451] {logging_mixin.py:115} INFO - [2023-04-26 11:06:30,451] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:06:30,493] {logging_mixin.py:115} INFO - [2023-04-26 11:06:30,491] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/slack_integration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_integration.py", line 32, in <module>
+    slack_webhook_token = BaseHook.get_connection(SLACK_CONN_ID).password
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `slack` isn't defined
+[2023-04-26 11:06:30,494] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:06:30,502] {processor.py:161} INFO - Processing /opt/airflow/dags/slack_integration.py took 0.065 seconds
+[2023-04-26 11:07:00,843] {processor.py:153} INFO - Started process (PID=891) to work on /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:07:00,846] {processor.py:641} INFO - Processing file /opt/airflow/dags/slack_integration.py for tasks to queue
+[2023-04-26 11:07:00,847] {logging_mixin.py:115} INFO - [2023-04-26 11:07:00,847] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:07:00,884] {logging_mixin.py:115} INFO - [2023-04-26 11:07:00,882] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/slack_integration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_integration.py", line 32, in <module>
+    slack_webhook_token = BaseHook.get_connection(SLACK_CONN_ID).password
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `slack` isn't defined
+[2023-04-26 11:07:00,885] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:07:00,892] {processor.py:161} INFO - Processing /opt/airflow/dags/slack_integration.py took 0.056 seconds
+[2023-04-26 11:07:31,088] {processor.py:153} INFO - Started process (PID=922) to work on /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:07:31,091] {processor.py:641} INFO - Processing file /opt/airflow/dags/slack_integration.py for tasks to queue
+[2023-04-26 11:07:31,092] {logging_mixin.py:115} INFO - [2023-04-26 11:07:31,092] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:07:31,128] {logging_mixin.py:115} INFO - [2023-04-26 11:07:31,126] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/slack_integration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_integration.py", line 32, in <module>
+    slack_webhook_token = BaseHook.get_connection(SLACK_CONN_ID).password
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `slack` isn't defined
+[2023-04-26 11:07:31,129] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:07:31,135] {processor.py:161} INFO - Processing /opt/airflow/dags/slack_integration.py took 0.054 seconds
+[2023-04-26 11:10:37,768] {processor.py:153} INFO - Started process (PID=33) to work on /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:10:37,784] {processor.py:641} INFO - Processing file /opt/airflow/dags/slack_integration.py for tasks to queue
+[2023-04-26 11:10:37,789] {logging_mixin.py:115} INFO - [2023-04-26 11:10:37,789] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:10:37,953] {logging_mixin.py:115} INFO - [2023-04-26 11:10:37,946] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/slack_integration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/slack_integration.py", line 32, in <module>
+    slack_webhook_token = BaseHook.get_connection(SLACK_CONN_ID).password
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `slack` isn't defined
+[2023-04-26 11:10:37,954] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:10:37,972] {processor.py:161} INFO - Processing /opt/airflow/dags/slack_integration.py took 0.207 seconds
+[2023-04-26 11:11:08,498] {processor.py:153} INFO - Started process (PID=63) to work on /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:11:08,499] {processor.py:641} INFO - Processing file /opt/airflow/dags/slack_integration.py for tasks to queue
+[2023-04-26 11:11:08,500] {logging_mixin.py:115} INFO - [2023-04-26 11:11:08,500] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:11:08,529] {logging_mixin.py:115} INFO - [2023-04-26 11:11:08,528] {base.py:68} INFO - Using connection ID 'slack' for task execution.
+[2023-04-26 11:11:08,530] {processor.py:651} INFO - DAG(s) dict_keys(['slack_integration']) retrieved from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:11:08,733] {logging_mixin.py:115} INFO - [2023-04-26 11:11:08,732] {manager.py:508} INFO - Created Permission View: can read on DAG:slack_integration
+[2023-04-26 11:11:08,739] {logging_mixin.py:115} INFO - [2023-04-26 11:11:08,739] {manager.py:508} INFO - Created Permission View: can delete on DAG:slack_integration
+[2023-04-26 11:11:08,743] {logging_mixin.py:115} INFO - [2023-04-26 11:11:08,743] {manager.py:508} INFO - Created Permission View: can edit on DAG:slack_integration
+[2023-04-26 11:11:08,744] {logging_mixin.py:115} INFO - [2023-04-26 11:11:08,744] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-04-26 11:11:08,749] {logging_mixin.py:115} INFO - [2023-04-26 11:11:08,749] {dag.py:2398} INFO - Creating ORM DAG for slack_integration
+[2023-04-26 11:11:08,756] {logging_mixin.py:115} INFO - [2023-04-26 11:11:08,756] {dag.py:2931} INFO - Setting next_dagrun for slack_integration to 2023-04-25T00:00:00+00:00, run_after=2023-04-26T00:00:00+00:00
+[2023-04-26 11:11:08,764] {processor.py:161} INFO - Processing /opt/airflow/dags/slack_integration.py took 0.271 seconds
+[2023-04-26 11:11:38,973] {processor.py:153} INFO - Started process (PID=93) to work on /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:11:38,975] {processor.py:641} INFO - Processing file /opt/airflow/dags/slack_integration.py for tasks to queue
+[2023-04-26 11:11:38,977] {logging_mixin.py:115} INFO - [2023-04-26 11:11:38,977] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:11:39,010] {logging_mixin.py:115} INFO - [2023-04-26 11:11:39,010] {base.py:68} INFO - Using connection ID 'slack' for task execution.
+[2023-04-26 11:11:39,012] {processor.py:651} INFO - DAG(s) dict_keys(['slack_integration']) retrieved from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:11:39,025] {logging_mixin.py:115} INFO - [2023-04-26 11:11:39,025] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-04-26 11:11:39,132] {logging_mixin.py:115} INFO - [2023-04-26 11:11:39,132] {dag.py:2931} INFO - Setting next_dagrun for slack_integration to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-26 11:11:39,143] {processor.py:161} INFO - Processing /opt/airflow/dags/slack_integration.py took 0.175 seconds
+[2023-04-26 11:12:09,353] {processor.py:153} INFO - Started process (PID=123) to work on /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:12:09,355] {processor.py:641} INFO - Processing file /opt/airflow/dags/slack_integration.py for tasks to queue
+[2023-04-26 11:12:09,358] {logging_mixin.py:115} INFO - [2023-04-26 11:12:09,358] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:12:09,410] {logging_mixin.py:115} INFO - [2023-04-26 11:12:09,410] {base.py:68} INFO - Using connection ID 'slack' for task execution.
+[2023-04-26 11:12:09,412] {processor.py:651} INFO - DAG(s) dict_keys(['slack_integration']) retrieved from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:12:09,427] {logging_mixin.py:115} INFO - [2023-04-26 11:12:09,427] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-04-26 11:12:09,577] {logging_mixin.py:115} INFO - [2023-04-26 11:12:09,577] {dag.py:2931} INFO - Setting next_dagrun for slack_integration to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-26 11:12:09,583] {processor.py:161} INFO - Processing /opt/airflow/dags/slack_integration.py took 0.237 seconds
+[2023-04-26 11:12:39,747] {processor.py:153} INFO - Started process (PID=150) to work on /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:12:39,748] {processor.py:641} INFO - Processing file /opt/airflow/dags/slack_integration.py for tasks to queue
+[2023-04-26 11:12:39,749] {logging_mixin.py:115} INFO - [2023-04-26 11:12:39,749] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:12:39,789] {logging_mixin.py:115} INFO - [2023-04-26 11:12:39,789] {base.py:68} INFO - Using connection ID 'slack' for task execution.
+[2023-04-26 11:12:39,791] {processor.py:651} INFO - DAG(s) dict_keys(['slack_integration']) retrieved from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:12:39,808] {logging_mixin.py:115} INFO - [2023-04-26 11:12:39,808] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-04-26 11:12:39,966] {logging_mixin.py:115} INFO - [2023-04-26 11:12:39,966] {dag.py:2931} INFO - Setting next_dagrun for slack_integration to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-26 11:12:39,974] {processor.py:161} INFO - Processing /opt/airflow/dags/slack_integration.py took 0.231 seconds
+[2023-04-26 11:13:10,157] {processor.py:153} INFO - Started process (PID=172) to work on /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:13:10,159] {processor.py:641} INFO - Processing file /opt/airflow/dags/slack_integration.py for tasks to queue
+[2023-04-26 11:13:10,161] {logging_mixin.py:115} INFO - [2023-04-26 11:13:10,161] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:13:10,208] {logging_mixin.py:115} INFO - [2023-04-26 11:13:10,208] {base.py:68} INFO - Using connection ID 'slack' for task execution.
+[2023-04-26 11:13:10,210] {processor.py:651} INFO - DAG(s) dict_keys(['slack_integration']) retrieved from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:13:10,223] {logging_mixin.py:115} INFO - [2023-04-26 11:13:10,223] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-04-26 11:13:10,391] {logging_mixin.py:115} INFO - [2023-04-26 11:13:10,391] {dag.py:2931} INFO - Setting next_dagrun for slack_integration to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-26 11:13:10,400] {processor.py:161} INFO - Processing /opt/airflow/dags/slack_integration.py took 0.249 seconds
+[2023-04-26 11:13:40,587] {processor.py:153} INFO - Started process (PID=203) to work on /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:13:40,589] {processor.py:641} INFO - Processing file /opt/airflow/dags/slack_integration.py for tasks to queue
+[2023-04-26 11:13:40,590] {logging_mixin.py:115} INFO - [2023-04-26 11:13:40,590] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:13:40,623] {logging_mixin.py:115} INFO - [2023-04-26 11:13:40,623] {base.py:68} INFO - Using connection ID 'slack' for task execution.
+[2023-04-26 11:13:40,625] {processor.py:651} INFO - DAG(s) dict_keys(['slack_integration']) retrieved from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:13:40,637] {logging_mixin.py:115} INFO - [2023-04-26 11:13:40,637] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-04-26 11:13:40,732] {logging_mixin.py:115} INFO - [2023-04-26 11:13:40,732] {dag.py:2931} INFO - Setting next_dagrun for slack_integration to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-26 11:13:40,741] {processor.py:161} INFO - Processing /opt/airflow/dags/slack_integration.py took 0.160 seconds
+[2023-04-26 11:14:10,938] {processor.py:153} INFO - Started process (PID=232) to work on /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:14:10,940] {processor.py:641} INFO - Processing file /opt/airflow/dags/slack_integration.py for tasks to queue
+[2023-04-26 11:14:10,942] {logging_mixin.py:115} INFO - [2023-04-26 11:14:10,942] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:14:10,978] {logging_mixin.py:115} INFO - [2023-04-26 11:14:10,978] {base.py:68} INFO - Using connection ID 'slack' for task execution.
+[2023-04-26 11:14:10,979] {processor.py:651} INFO - DAG(s) dict_keys(['slack_integration']) retrieved from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:14:10,992] {logging_mixin.py:115} INFO - [2023-04-26 11:14:10,992] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-04-26 11:14:11,098] {logging_mixin.py:115} INFO - [2023-04-26 11:14:11,098] {dag.py:2931} INFO - Setting next_dagrun for slack_integration to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-26 11:14:11,104] {processor.py:161} INFO - Processing /opt/airflow/dags/slack_integration.py took 0.173 seconds
+[2023-04-26 11:14:41,313] {processor.py:153} INFO - Started process (PID=262) to work on /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:14:41,316] {processor.py:641} INFO - Processing file /opt/airflow/dags/slack_integration.py for tasks to queue
+[2023-04-26 11:14:41,317] {logging_mixin.py:115} INFO - [2023-04-26 11:14:41,317] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:14:41,358] {logging_mixin.py:115} INFO - [2023-04-26 11:14:41,358] {base.py:68} INFO - Using connection ID 'slack' for task execution.
+[2023-04-26 11:14:41,359] {processor.py:651} INFO - DAG(s) dict_keys(['slack_integration']) retrieved from /opt/airflow/dags/slack_integration.py
+[2023-04-26 11:14:41,375] {logging_mixin.py:115} INFO - [2023-04-26 11:14:41,375] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-04-26 11:14:41,543] {logging_mixin.py:115} INFO - [2023-04-26 11:14:41,543] {dag.py:2931} INFO - Setting next_dagrun for slack_integration to 2023-04-26T00:00:00+00:00, run_after=2023-04-27T00:00:00+00:00
+[2023-04-26 11:14:41,551] {processor.py:161} INFO - Processing /opt/airflow/dags/slack_integration.py took 0.245 seconds

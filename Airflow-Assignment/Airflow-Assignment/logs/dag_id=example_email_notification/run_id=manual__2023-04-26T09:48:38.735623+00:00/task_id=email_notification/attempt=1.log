@@ -1,0 +1,27 @@
+[2023-04-26 09:48:41,115] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: example_email_notification.email_notification manual__2023-04-26T09:48:38.735623+00:00 [queued]>
+[2023-04-26 09:48:41,121] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: example_email_notification.email_notification manual__2023-04-26T09:48:38.735623+00:00 [queued]>
+[2023-04-26 09:48:41,122] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-26 09:48:41,122] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2023-04-26 09:48:41,123] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-26 09:48:41,131] {taskinstance.py:1377} INFO - Executing <Task(EmailOperator): email_notification> on 2023-04-26 09:48:38.735623+00:00
+[2023-04-26 09:48:41,138] {standard_task_runner.py:52} INFO - Started process 86 to run task
+[2023-04-26 09:48:41,143] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'example_email_notification', 'email_notification', 'manual__2023-04-26T09:48:38.735623+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/sample_dag.py', '--cfg-path', '/tmp/tmpz8xd7o5z', '--error-file', '/tmp/tmpc6c75ut3']
+[2023-04-26 09:48:41,144] {standard_task_runner.py:80} INFO - Job 3: Subtask email_notification
+[2023-04-26 09:48:41,187] {task_command.py:370} INFO - Running <TaskInstance: example_email_notification.email_notification manual__2023-04-26T09:48:38.735623+00:00 [running]> on host d3d16b749c12
+[2023-04-26 09:48:41,234] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=example_email_notification
+AIRFLOW_CTX_TASK_ID=email_notification
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-26T09:48:38.735623+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-26T09:48:38.735623+00:00
+[2023-04-26 09:48:41,248] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/email.py:119: PendingDeprecationWarning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2023-04-26 09:48:41,249] {email.py:228} INFO - Email alerting: attempt 1
+[2023-04-26 09:48:42,809] {email.py:240} INFO - Sent an alert email to ['anuj.mohan@sigmoidanalytics.com']
+[2023-04-26 09:48:44,318] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=example_email_notification, task_id=email_notification, execution_date=20230426T094838, start_date=20230426T094841, end_date=20230426T094844
+[2023-04-26 09:48:44,350] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-04-26 09:48:44,381] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
