@@ -1,3 +1,0 @@
-EMAIL = ""
-PASSWORD = ""
-OFFICIAL_EMAIL = ""
