@@ -30,12 +30,12 @@
 ![alt text](https://github.com/anuj-0/Assignments/blob/main/Airflow-Assignment/Screenshots/b1.png)
 
 >Email 
-![alt text](https://github.com/anuj-0/Assignments/blob/main/Airflow-Assignment/Screenshots/b1.png)
+![alt text](https://github.com/anuj-0/Assignments/blob/main/Airflow-Assignment/Screenshots/b2.png)
 
 ## 3. Slack Integration with Airflow
 
 > Task Execution
-![alt text](https://github.com/anuj-0/Assignments/blob/main/Airflow-Assignment/Screenshots/1.png)
+![alt text](https://github.com/anuj-0/Assignments/blob/main/Airflow-Assignment/Screenshots/c1.png)
 
 ![alt text](https://github.com/anuj-0/Assignments/blob/main/Airflow-Assignment/Screenshots/c2.png)
 
