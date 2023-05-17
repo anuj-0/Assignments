@@ -23,6 +23,12 @@ Put files in S3 bucket from lambda
 ### Question 3:
 API gateway - Lambda integration
   1. Modify lambda function to accept parameters and return file name.
+  ![alt text](https://github.com/anuj-0/Assignments/blob/main/AWS-Assignment/Screenshots/LambdaAPI.png)
   2. Create a POST API from API Gateway, pass parameters as request body to Lambda job. Return filename and status code as response.
+  ![alt text](https://github.com/anuj-0/Assignments/blob/main/AWS-Assignment/Screenshots/Gateway.png)
   3. Consume API from local machine and pass unique data to lambda. 
+  ![alt text](https://github.com/anuj-0/Assignments/blob/main/AWS-Assignment/Test/Test.png)
+  ![alt text](https://github.com/anuj-0/Assignments/blob/main/AWS-Assignment/Screenshots/Postman.png)
+  ![alt text](https://github.com/anuj-0/Assignments/blob/main/AWS-Assignment/Screenshots/BucketOutput.png)
   4. Check if cloudwatch logs are generated
+  ![alt text](https://github.com/anuj-0/Assignments/blob/main/AWS-Assignment/Screenshots/CloudWatchAPI.png)  
