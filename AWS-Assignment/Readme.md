@@ -57,7 +57,7 @@ API gateway - Lambda integration
   2. Create a POST API from API Gateway, pass parameters as request body to Lambda job. Return filename and status code as response.
   ![alt text](https://github.com/anuj-0/Assignments/blob/main/AWS-Assignment/Screenshots/Gateway.png)
   3. Consume API from local machine and pass unique data to lambda. 
-  ![alt text](https://github.com/anuj-0/Assignments/blob/main/AWS-Assignment/Sreenshots/Test.png)
+  ![alt text](https://github.com/anuj-0/Assignments/blob/main/AWS-Assignment/Screenshots/Test.png)
   ![alt text](https://github.com/anuj-0/Assignments/blob/main/AWS-Assignment/Screenshots/Postman.png)
   ![alt text](https://github.com/anuj-0/Assignments/blob/main/AWS-Assignment/Screenshots/BucketOutput.png)
   4. Check if cloudwatch logs are generated
