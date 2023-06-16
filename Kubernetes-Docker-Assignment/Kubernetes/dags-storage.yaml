@@ -1,0 +1,28 @@
+kind: PersistentVolume 
+apiVersion: v1 
+metadata: 
+  name: airflow-dags-pv
+  labels: 
+    deploy: airflow 
+spec:
+  storageClassName: dags-storage
+  capacity: 
+    storage: 5Gi 
+  accessModes: 
+    - ReadWriteMany 
+  hostPath: 
+    path: /Users/ashishchouhan/Desktop/Docker-Kubernetes-assignment/Kubernetes-assignment/dags 
+--- 
+kind: PersistentVolumeClaim 
+apiVersion: v1 
+metadata: 
+  name: airflow-dags-pv-claim 
+  labels: 
+    deploy: airflow
+spec: 
+  storageClassName: dags-storage
+  accessModes: 
+    - ReadWriteMany 
+  resources: 
+    requests: 
+      storage: 5Gi 

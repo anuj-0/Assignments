@@ -1,0 +1,17 @@
+# USING AIRFLOW IMAGE
+FROM apache/airflow:2.5.0
+
+# SWITCHING TO ROOT USER
+USER root
+
+# COPYING DAG FILE TO DAGS FOLDER INSIDE DOCKER IMAGE
+COPY requirements.txt /opt/airflow/requirements.txt
+
+# GIVING READ, WRITE AND EXECUTE PERMISSION OF THE FILE TO ALL USERS
+RUN chmod 777 /opt/airflow/requirements.txt
+
+# SWITCHING TO USER NAMED AIRFLOW
+USER airflow
+
+# INSTALLING PACKAGES IN REQUIREMENTS.TXT FILE
+RUN pip install -r /opt/airflow/requirements.txt
